@@ -1,0 +1,32 @@
+[
+  {
+    "username": "24110270",
+    "password": "24110270",
+    "role": "sinhvien"
+  },
+  {
+    "username": "24110911",
+    "password": "24110911",
+    "role": "sinhvien"
+  },
+  {
+    "username": "24110205",
+    "password": "24110205",
+    "role": "sinhvien"
+  },
+  {
+    "username": "23110178",
+    "password": "23110178",
+    "role": "sinhvien"
+  },
+  {
+    "username": "gv01",
+    "password": "gv123",
+    "role": "giangvien"
+  },
+  {
+    "username": "admin",
+    "password": "admin123",
+    "role": "admin"
+  }
+]
