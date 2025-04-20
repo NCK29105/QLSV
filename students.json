@@ -1,23 +1,12 @@
 [
     {
-        "ma_so": "23110178",
-        "ho_ten": "Nguyễn Công Khanh",
-        "ngay_sinh": "29/10/2005",
+        "ma_so": "24110270",
+        "ho_ten": "Phạm Đức Thiện",
+        "ngay_sinh": "12/02/2006",
         "gioi_tinh": "Nam",
-        "que_quan": "Hà Nội",
-        "email": "23110178@st.vju.ac.vn",
-        "sdt": "01618941651",
-        "chuyen_nganh": "BCSE",
-        "nien_khoa": 2023
-    },
-    {
-        "ma_so": "23110178",
-        "ho_ten": "Trần Quốc Đại",
-        "ngay_sinh": "12/11/2006",
-        "gioi_tinh": "Nam",
-        "que_quan": "Hà Nội",
-        "email": "24110911@st.vju.ac.vn",
-        "sdt": "0153541548",
+        "que_quan": "Bắc Ninh",
+        "email": "ducthienpham06@gmail.com",
+        "sdt": "0973285403",
         "chuyen_nganh": "BCSE",
         "nien_khoa": 2024
     }
