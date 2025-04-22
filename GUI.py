@@ -74,10 +74,7 @@ class StudentGUI:
             for btn in self.restricted_buttons:
                 btn.config(state="disabled")
 
-
-        # ----------------------------
         # Nút tài khoản (hiển thị popup tài khoản)
-        # ----------------------------
         tk.Button(right_frame, text="Tài khoản", width=20, command=self.mo_popup_tai_khoan).pack(pady=10)
 
         bottom_frame = tk.Frame(self.root)
@@ -220,9 +217,7 @@ class StudentGUI:
             except Exception as e:
                 messagebox.showerror("Lỗi", f"Không thể xuất file: {e}")
 
-    # ----------------------------
     # Hiển thị cửa sổ popup tài khoản
-    # ----------------------------
     def mo_popup_tai_khoan(self):
         popup = tk.Toplevel(self.root)
         popup.title("Tài khoản")
@@ -233,16 +228,11 @@ class StudentGUI:
         tk.Button(popup, text="Thông tin tài khoản", width=25, command=self.thong_tin_tai_khoan).pack(pady=5)
         tk.Button(popup, text="Đăng xuất", width=25, command=self.dang_xuat).pack(pady=5)
 
-
-    # ----------------------------
     # Hiển thị thông tin tài khoản
-    # ----------------------------
     def thong_tin_tai_khoan(self):
         messagebox.showinfo("Thông tin tài khoản", f"Bạn đang đăng nhập với tư cách: {self.role}")
 
-    # ----------------------------
     # Đăng xuất và quay lại đăng nhập
-    # ----------------------------
     def dang_xuat(self):
         self.root.destroy()
         import Main

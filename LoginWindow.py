@@ -81,9 +81,7 @@ class LoginWindow:
 
         messagebox.showerror("Lỗi", "Tên đăng nhập, mật khẩu hoặc tư cách không đúng.")
 
-# ----------------------------
 # Hàm đổi mật khẩu từ GUI.py gọi
-# ----------------------------
 def doi_mat_khau(username, old_pass, new_pass, confirm_pass):
     try:
         with open("accounts.json", "r", encoding="utf-8") as f:
